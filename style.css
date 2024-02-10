@@ -1,0 +1,39 @@
+.body{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    margin:50px;
+    text-align: center;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+.apartments{
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.apartments div img{
+    width: 100%;
+}
+.apartments div img:hover{
+    opacity: 0.5;
+}
+
+p{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
